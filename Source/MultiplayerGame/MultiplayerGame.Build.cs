@@ -20,9 +20,34 @@ public class MultiplayerGame : ModuleRules
 			"GameplayTags",
 			"GameplayTasks",
 			"OnlineSubsystem",
-			"OnlineSubsystemUtils"
+			"OnlineSubsystemUtils",
+			"Networking",
+			"NetCore",
+			"CommonUI",
+			"CommonInput",
+			"ModularGameplay",
+			"ModularGameplayActors",
+			"GameplayMessageRuntime",
+			"GameplayStateTreeModule",
+			"MassEntity",
+			"MassCommon",
+			"MassMovement",
+			"MassSpawner",
+			"MassAIBehavior",
+			"MassGameplayDebug",
+			"GameplayInsights",
+			"GameplayDebugger",
+			"DeveloperSettings",
+			"EngineSettings"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		PrivateDependencyModuleNames.AddRange(new string[] { 
+			"Slate",
+			"SlateCore",
+			"UMG",
+			"ApplicationCore",
+			"RenderCore",
+			"RHI"
+		});
 	}
 } 

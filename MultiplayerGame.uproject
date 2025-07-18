@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.6",
 	"Category": "",
-	"Description": "",
+	"Description": "Modern multiplayer game with enhanced networking and gameplay features for UE 5.6",
 	"Modules": [
 		{
 			"Name": "MultiplayerGame",
@@ -19,7 +19,25 @@
 				"AIModule",
 				"GameplayAbilities",
 				"GameplayTags",
-				"GameplayTasks"
+				"GameplayTasks",
+				"OnlineSubsystem",
+				"OnlineSubsystemUtils",
+				"Networking",
+				"NetCore",
+				"CommonUI",
+				"CommonInput",
+				"ModularGameplay",
+				"ModularGameplayActors",
+				"GameplayMessageRuntime",
+				"GameplayStateTreeModule",
+				"MassEntity",
+				"MassCommon",
+				"MassMovement",
+				"MassSpawner",
+				"MassAIBehavior",
+				"MassGameplayDebug",
+				"GameplayInsights",
+				"GameplayDebugger"
 			]
 		}
 	],
@@ -34,6 +52,34 @@
 		},
 		{
 			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonInput",
+			"Enabled": true
+		},
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayDebugger",
 			"Enabled": true
 		}
 	]
